@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <parameter name="url" value="http://automationpractice.com/index.php"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.mystore.testcases.MyWishListPageTest">
+        <methods>
+          <include name="setup2"/>
+          <include name="tearDown"/>
+          <include name="verifyMyWishListPageTest"/>
+          <include name="tearDownMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.mystore.testcases.MyWishListPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
